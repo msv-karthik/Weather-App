@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    min-height: 15vh;
+    width: 50vh;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.searchbar{
+    height: 40px;
+    width: 250px;
+    background-color: #D8D2E1;
+    margin-left: 60px;
+    margin-top: 1.5rem;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.searchbar input{
+    margin-top: 13px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background-color: #D8D2E1;
+    color: black;
+}
+
+.main{
+    width: 80%;
+    margin: 2rem;
+}
+
+.image-container {
+    height: 25%;
+    overflow: hidden;
+    margin: 1rem 4rem;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.temperature{
+    text-align: center;
+}
+
+.city{
+    text-align: center;
+    margin: 1rem;
+}
+
+.last{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 25%;  
+}
+
+.display{
+    display: none;
+}
+
+.humidity , .wind-speed{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wind-speed{
+    margin-right: 10px;
+}
+
+.humidity img, .wind-speed img{
+    width: 50%;
+    height: 3rem;
+    /* margin-right: 10px; */
+    margin-bottom: 1.5rem;
+}
+
+.Hquantity, .Wquantity{
+    padding-bottom: 5px;
+}
+
+.error{
+    display: none;
+    margin: 2rem;
+    text-align: center;
+}
